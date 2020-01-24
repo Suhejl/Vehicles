@@ -10,6 +10,7 @@ import java.util.Scanner;
 
 public class VehicleService {
 
+    FileEditor fileEditor = new FileEditor();
     ArrayList<Vehicle> vehicleList = new ArrayList<>();
     ArrayList<Contract> contractList = new ArrayList<>();
     int amount;
@@ -20,24 +21,7 @@ public class VehicleService {
      */
     public VehicleService(){
         amount = 10000;
-        Car car1 = new Car("8er coupé", "BMW", "black", "24.01.2020", "200 HP", "24.01.2020", "69420", 4);
-        Car car2 = new Car("Grand Tourismo", "BMW", "red", "24.01.2020", "170 HP", "24.01.2020", "12345", 4);
-        Car car3 = new Car("4er Cabrio", "BMW", "blue", "24.01.2020", "150 HP", "24.01.2020", "00000", 4);
-        ElectroCar electroCar1 = new ElectroCar("Modell 3", "Tesla", "blue", "24.01.2020", "200 HP", "24.01.2020", "10 hours");
-        ElectroCar electroCar2 = new ElectroCar("Modell S", "Tesla", "white", "24.01.2020", "220 HP", "24.01.2020", "15 hours");
-        ElectroCar electroCar3 = new ElectroCar("Modell X", "Tesla", "white", "24.01.2020", "250 HP", "24.01.2020", "24 hours");
-        Truck truck1 = new Truck("normal Truck", "Mercedes", "white", "24.01.2020", "150 HP", "24.01.2020", "54321", "1000 Kg");
-        Truck truck2 = new Truck("mega Truck", "Mercedes", "white", "24.01.2020", "150 HP", "24.01.2020", "5318008", "2000 Kg");
-        Truck truck3 = new Truck("ultra Truck", "Mercedes", "black with flames on the side", "24.01.2020", "150 HP", "24.01.2020", "I dont even know anymore", "5000 Kg");
-        vehicleList.add(car1);
-        vehicleList.add(car2);
-        vehicleList.add(car3);
-        vehicleList.add(electroCar1);
-        vehicleList.add(electroCar2);
-        vehicleList.add(electroCar3);
-        vehicleList.add(truck1);
-        vehicleList.add(truck2);
-        vehicleList.add(truck3);
+        fileEditor.useFileData(vehicleList);
     }
 
     /**
@@ -59,7 +43,7 @@ public class VehicleService {
      * Shows all options of cars that could be bought by me
      */
     public void carOptions(){
-        System.out.println("[1] tesla\n" +
+        System.out.println("[1] new electro car\n" +
                 "[2] new car\n" +
                 "[3] new truck");
     }
@@ -88,6 +72,7 @@ public class VehicleService {
             default:
                 System.out.println("Please enter a number between 1 - 3");
         }
+        fileEditor.convertArrayToFile(vehicleList);
     }
 
     /**

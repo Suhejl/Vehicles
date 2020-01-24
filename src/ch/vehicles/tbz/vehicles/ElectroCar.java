@@ -44,6 +44,14 @@ public class ElectroCar extends Vehicle implements Definable {
     }
 
     /**
+     * @return a String that can be printed in the csv file and understood by the csv reader
+     */
+    @Override
+    public String getCsvString() {
+        return "ElectroCar>;" + getName() + ";" + getBrand() + ";" + getMainColor() + ";" + getPurchaseDate() + ";" + getEnginePower() + ";" + getLastInspection() + ";" + getBatteryDuration() + "\n";
+    }
+
+    /**
      * Method that is inherited from Definable and represents a form with which the user can define the attributes of this class.
      * @param inputValue is a Scanner object, that allows the user to scan userentries from the console.
      */

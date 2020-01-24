@@ -21,7 +21,8 @@ public class VehicleController {
                 "[2] to see all of your sales\n" +
                 "[3] to buy a new vehicle\n" +
                 "[4] to sell a new vehicle\n" +
-                "[5] to see your cash register");
+                "[5] to see your cash register\n" +
+                "[x] if you want to exit the program");
         String entry = inputValue.nextLine();
         return entry;
     }
