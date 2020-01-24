@@ -6,7 +6,7 @@ import java.util.Scanner;
  * This class is an entity which represents a motorized vehicle and contains all the needed data, to define it.
  * All vehicles with a motor(everyone except the electrocar) extend from this class.
  */
-public class MotorizedVehicle extends Vehicle {
+public abstract class MotorizedVehicle extends Vehicle {
 
     /**
      * The number of the licenceplate every motorized vehicle has.

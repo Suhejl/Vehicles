@@ -32,6 +32,18 @@ public class Car extends MotorizedVehicle implements Definable {
 
 
     /**
+     * Method that defines all attributes of the car and shows a success message
+     * @param inputValue is a Scanner object, that allows the user to scan userentries from the console.
+     * @returns the own entity should be returned.
+     */
+    @Override
+    public Car buy(Scanner inputValue) {
+        defineAttributes(inputValue);
+        System.out.println("Truck has been successfully created");
+        return this;
+    }
+
+    /**
      * Method that is inherited from Definable and represents a form with which the user can define the attributes of this class.
      * @param inputValue is a Scanner object, that allows the user to scan userentries from the console.
      */

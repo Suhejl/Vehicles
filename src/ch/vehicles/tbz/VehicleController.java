@@ -42,7 +42,7 @@ public class VehicleController {
                 waitTillUserEntry();
                 break;
             case "3":
-                vehicleService.buyNewCarForm();
+                vehicleService.buyNewVehicleForm();
                 waitTillUserEntry();
                 break;
             case "4":

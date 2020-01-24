@@ -9,7 +9,7 @@ import java.util.Scanner;
  * Every other vehicle class extends from this one.
  * Its the root class.
  */
-public class Vehicle implements Definable {
+public abstract class Vehicle implements Definable {
 
     /**
      * The name of the modell of this vehicle
@@ -56,6 +56,12 @@ public class Vehicle implements Definable {
      */
     public Vehicle(){}
 
+    /**
+     * Method that defines all attributes of the vehicle and shows a success message
+     * @param inputValue is a Scanner object, that allows the user to scan userentries from the console.
+     * @returns the own entity should be returned.
+     */
+    abstract public Vehicle buy(Scanner inputValue);
 
     /**
      * method that is inherited from Definable and represents a form with which the user can define the attributes of this class.
