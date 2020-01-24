@@ -4,18 +4,37 @@ import ch.vehicles.tbz.Definable;
 
 import java.util.Scanner;
 
+/**
+ * This class is an entity which represents an electrocar and contains all the needed data, to define it.
+ */
 public class ElectroCar extends Vehicle implements Definable {
 
-
+    /**
+     * The duration of the battery of this electrocar
+     */
     private String batteryDuration;
 
+
+    /**
+     * Constructor that fills the attributes.
+     * They are automatically added.
+     */
     public ElectroCar(String name, String brand, String mainColor, String purchaseDate, String enginePower, String lastInspection, String batteryDuration) {
         super(name, brand, mainColor, purchaseDate, enginePower, lastInspection);
         this.batteryDuration = batteryDuration;
     }
 
+    /**
+     * Constructor that leaves the attributes empty.
+     * They can manually be added later with the form.
+     */
     public ElectroCar(){}
 
+
+    /**
+     * Method that is inherited from Definable and represents a form with which the user can define the attributes of this class.
+     * @param inputValue is a Scanner object, that allows the user to scan userentries from the console.
+     */
     @Override
     public void defineAttributes(Scanner inputValue){
         super.defineAttributes(inputValue);
@@ -23,6 +42,10 @@ public class ElectroCar extends Vehicle implements Definable {
         setBatteryDuration(inputValue.nextLine());
     }
 
+
+    /**
+     * Getters and Setters
+     */
     public String getBatteryDuration() {
         return batteryDuration;
     }

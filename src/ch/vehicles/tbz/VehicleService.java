@@ -109,11 +109,14 @@ public class VehicleService {
     public void sellVehicle(){
         System.out.println("Which car should be sold?");
         int sellingCar = Integer.parseInt(inputValue.nextLine());
+
         showStock();
         Contract contract = new Contract();
         contract.defineAttributesForSelling(inputValue, vehicleList.get(sellingCar));
+
         contractList.add(contract);
         vehicleList.remove(vehicleList.get((sellingCar)));
+
         amount += contract.getAmount();
         System.out.println("Thank you for your purchase");
     }
