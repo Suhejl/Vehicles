@@ -48,7 +48,7 @@ public class ElectroCar extends Vehicle implements Definable {
      */
     @Override
     public String getCsvString() {
-        return "ElectroCar>;" + getName() + ";" + getBrand() + ";" + getMainColor() + ";" + getPurchaseDate() + ";" + getEnginePower() + ";" + getLastInspection() + ";" + getBatteryDuration() + "\n";
+        return "ElectroCar;" + getName() + ";" + getBrand() + ";" + getMainColor() + ";" + getPurchaseDate() + ";" + getEnginePower() + ";" + getLastInspection() + ";" + getBatteryDuration() + "\n";
     }
 
     /**

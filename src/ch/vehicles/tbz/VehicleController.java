@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class VehicleController {
 
     Scanner inputValue = new Scanner(System.in);
-    VehicleService vehicleService = new VehicleService();
+    VehicleService vehicleService = new VehicleService("src\\DummyData.csv");
 
     /**
      * This method shows all other methods to the user, that this application has to offer.
@@ -32,7 +32,7 @@ public class VehicleController {
      * It has also error handling for wrong entries
      * @param entry id the decision of the user and the return value of showMenu()
      */
-    public void switchCase(String entry){
+    public boolean switchCase(String entry){
         switch (entry){
             case "1":
                 vehicleService.showStock();
@@ -59,8 +59,10 @@ public class VehicleController {
                 break;
             default:
                 System.out.println("Please enter a valid value");
-                waitTillUserEntry();
+                //waitTillUserEntry();
+                return false;
         }
+        return true;
     }
 
     /**

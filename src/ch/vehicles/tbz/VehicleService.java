@@ -14,14 +14,16 @@ public class VehicleService {
     ArrayList<Vehicle> vehicleList = new ArrayList<>();
     ArrayList<Contract> contractList = new ArrayList<>();
     int amount;
+    String source;
     Scanner inputValue = new Scanner(System.in);
 
     /**
      * Dummydata
      */
-    public VehicleService(){
+    public VehicleService(String source){
         amount = 10000;
-        fileEditor.useFileData(vehicleList);
+        this.source = source;
+        fileEditor.useFileData(vehicleList, source);
     }
 
     /**
@@ -72,7 +74,7 @@ public class VehicleService {
             default:
                 System.out.println("Please enter a number between 1 - 3");
         }
-        fileEditor.convertArrayToFile(vehicleList);
+        fileEditor.convertArrayToFile(vehicleList, source);
     }
 
     /**
@@ -107,6 +109,9 @@ public class VehicleService {
     }
 
     /**
+     *
+     * Testable
+     *
      * Adjusts the cashamount in amount.
      * @param contract amount gets adjusted by the cashamount in this object.
      * @param isSold decides if the cash gets added or removed
@@ -149,5 +154,25 @@ public class VehicleService {
                 System.out.println("[" + x + "] " + vehicleList.get(x-1).toString());
             }
         }
+    }
+
+
+    /**
+     * Getters and Setters
+     */
+    public int getAmount() {
+        return amount;
+    }
+
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
+
+    public String getSource() {
+        return source;
+    }
+
+    public void setSource(String source) {
+        this.source = source;
     }
 }

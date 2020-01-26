@@ -19,8 +19,8 @@ public class FileEditor {
      * This method saves all the data from the csv file in the arrayList and serves as a small database.
      * @param vehicleList is the ArrayList in which the data gets saved
      */
-    public void useFileData(ArrayList<Vehicle> vehicleList){
-        File dummyFile = new File("src\\DummyData.csv");
+    public void useFileData(ArrayList<Vehicle> vehicleList, String source){
+        File dummyFile = new File(source);
         Scanner dummyScanner;
         try{
             dummyScanner = new Scanner(dummyFile);
@@ -45,21 +45,26 @@ public class FileEditor {
      * @param allVehicles ArrayList.
      * @return true if the creation was successful, false if not.
      */
-    public boolean convertArrayToFile(ArrayList<Vehicle> allVehicles){
-        File oldData = new File("src\\DummyData.csv");
+    public boolean convertArrayToFile(ArrayList<Vehicle> allVehicles, String source){
+        File oldData = new File(source);
         if(deleteOldFile(oldData)){
             if(createNewFile(oldData)){
-                try {
-                    BufferedWriter copyToWriter = new BufferedWriter(new FileWriter(oldData));
-                    for(int x = 0; x <allVehicles.size(); x++){
-                        copyToWriter.append(allVehicles.get(x).getCsvString());
-                    }
-                    copyToWriter.close();
-                    return true;
-                }catch (IOException e) {
-                    e.printStackTrace();
-                }
+                return writeInFile(allVehicles, oldData);
             }
+        }
+        return false;
+    }
+
+    public boolean writeInFile(ArrayList<Vehicle> allVehicles, File oldData){
+        try {
+            BufferedWriter copyToWriter = new BufferedWriter(new FileWriter(oldData));
+            for(int x = 0; x <allVehicles.size(); x++){
+                copyToWriter.append(allVehicles.get(x).getCsvString());
+            }
+            copyToWriter.close();
+            return true;
+        }catch (IOException e) {
+            e.printStackTrace();
         }
         return false;
     }
