@@ -89,10 +89,8 @@ public class VehicleService {
             makeContract(soldVehicle, true);
             vehicleList.remove(soldVehicle);
             System.out.println("Thank you for your purchase");
-        }catch(NumberFormatException e){
+        }catch(NumberFormatException | IndexOutOfBoundsException e){
             System.out.println("Please enter a valid value");
-        }catch(IndexOutOfBoundsException e){
-            System.out.println("Please enter a valid number");
         }
     }
 
