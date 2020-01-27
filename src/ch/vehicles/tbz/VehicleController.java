@@ -14,6 +14,7 @@ public class VehicleController {
      * @return the number of the method the user wants to use
      */
     public String showMenu(){
+        waitTillUserEntry();
         System.out.println("\n".repeat(20));
         System.out.println("Menu:\n" +
                 "-----------------------------------\n" +
@@ -36,30 +37,24 @@ public class VehicleController {
         switch (entry){
             case "1":
                 vehicleService.showStock();
-                waitTillUserEntry();
                 break;
             case "2":
                 vehicleService.showTransactions();
-                waitTillUserEntry();
                 break;
             case "3":
                 vehicleService.buyNewVehicleForm();
-                waitTillUserEntry();
                 break;
             case "4":
                 vehicleService.sellVehicle();
-                waitTillUserEntry();
                 break;
             case "5":
                 vehicleService.showCashRegister();
-                waitTillUserEntry();
                 break;
             case "X": case "x":
                 System.out.println("System shutdown");
                 break;
             default:
                 System.out.println("Please enter a valid value");
-                //waitTillUserEntry();
                 return false;
         }
         return true;

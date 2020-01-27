@@ -81,13 +81,19 @@ public class VehicleService {
      * Lets the user select a car that is beeing sold.
      */
     public void sellVehicle(){
-        System.out.println("Which car should be sold?");
-        showStock();
-        Vehicle soldVehicle = vehicleList.get(Integer.parseInt(inputValue.nextLine()));
+        try {
+            System.out.println("Which car should be sold?");
+            showStock();
+            Vehicle soldVehicle = vehicleList.get(Integer.parseInt(inputValue.nextLine()) - 1);
 
-        makeContract(soldVehicle, true);
-        vehicleList.remove(soldVehicle);
-        System.out.println("Thank you for your purchase");
+            makeContract(soldVehicle, true);
+            vehicleList.remove(soldVehicle);
+            System.out.println("Thank you for your purchase");
+        }catch(NumberFormatException e){
+            System.out.println("Please enter a valid value");
+        }catch(IndexOutOfBoundsException e){
+            System.out.println("Please enter a valid number");
+        }
     }
 
     /**
