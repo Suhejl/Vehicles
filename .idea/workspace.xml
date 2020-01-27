@@ -25,8 +25,6 @@
       <change afterPath="$PROJECT_DIR$/../ModulTBZ/src/ch/tbz/modul411/fibonacci/Fibonacci.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SocialNetwork/SocialNetwork.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TestProject/TestProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch/vehicles/tbz/NoTransactionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch/vehicles/tbz/NoVehiclesOnStockException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Airportscheduler/src/Airport.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Airportscheduler/src/Flight.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Airportscheduler/src/Gate.java" beforeDir="false" />
@@ -57,13 +55,12 @@
       <change beforePath="$PROJECT_DIR$/../RepetitionAnother/src/ch/noser/blj/abstracts/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RepetitionAnother/src/ch/noser/blj/abstracts/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RepetitionAnother/src/ch/noser/blj/abstracts/Fastable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RepetitionAnother/src/ch/noser/blj/abstracts/Fastable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SocialNetwork/src/EventPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SocialNetwork/src/EventPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vehicles/DummyData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vehicles/DummyData.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vehicles/META-INF/Vehicles.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vehicles/META-INF/Vehicles.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vehicles/ch/vehicles/tbz/VehicleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vehicles/ch/vehicles/tbz/VehicleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DummyData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/DummyData.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/vehicles/tbz/VehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/vehicles/tbz/VehicleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/vehicles/tbz/VehicleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/vehicles/tbz/VehicleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Vehicles/ch/vehicles/tbz/vehicles/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vehicles/ch/vehicles/tbz/vehicles/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/ElectroCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/ElectroCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/MotorizedVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/MotorizedVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/Truck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Zeiterfassung_Project" beforeDir="false" afterPath="$PROJECT_DIR$/../Zeiterfassung_Project" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Zeiterfassung_Project_Not" beforeDir="false" afterPath="$PROJECT_DIR$/../Zeiterfassung_Project_Not" afterDir="false" />
     </list>
@@ -99,7 +96,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="feature" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -122,6 +119,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -141,7 +139,7 @@
       <recent name="C:\Work\Source\projectsintelliJ\Vehicles\src\ch\vehicles\tbz\model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch.vehicles.tbz.Main" />
       <module name="Vehicles" />
@@ -170,6 +168,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -204,6 +204,7 @@
       <workItem from="1579719058691" duration="5501000" />
       <workItem from="1580149874602" duration="40000" />
       <workItem from="1580150092272" duration="3810000" />
+      <workItem from="1580158162426" duration="3867000" />
     </task>
     <servers />
   </component>
@@ -240,22 +241,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580149879811" />
-    <state width="1877" height="315" key="GridCell.Tab.0.bottom" timestamp="1580155891022">
+    <state width="1877" height="357" key="GridCell.Tab.0.bottom" timestamp="1580159970158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580155891022" />
-    <state width="1877" height="315" key="GridCell.Tab.0.center" timestamp="1580155891022">
+    <state width="1877" height="357" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580159970158" />
+    <state width="1877" height="357" key="GridCell.Tab.0.center" timestamp="1580159970158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="315" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580155891022" />
-    <state width="1877" height="315" key="GridCell.Tab.0.left" timestamp="1580155891021">
+    <state width="1877" height="357" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580159970158" />
+    <state width="1877" height="357" key="GridCell.Tab.0.left" timestamp="1580159970158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="315" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580155891021" />
-    <state width="1877" height="315" key="GridCell.Tab.0.right" timestamp="1580155891022">
+    <state width="1877" height="357" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580159970158" />
+    <state width="1877" height="357" key="GridCell.Tab.0.right" timestamp="1580159970158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="315" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580155891022" />
+    <state width="1877" height="357" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580159970158" />
     <state width="1877" height="315" key="GridCell.Tab.1.bottom" timestamp="1580155891022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -292,10 +293,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580150094021" />
-    <state x="767" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580155078321">
+    <state x="767" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580158427676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="767" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580155078321" />
+    <state x="767" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580158427676" />
     <state x="725" y="152" key="git4idea.branch.GitSmartOperationDialog" timestamp="1579719449716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -308,24 +309,6 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="766" y="416" key="git4idea.ui.GitStashDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580150171145" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ch/vehicles/tbz/Main.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="((SimpleQuery)((PgResultSet)((ResultWrapper)((PgStatement)((PgResultSet)rs).statement).result).rs).originalQuery).statementName" custom="org.postgresql.jdbc.PgResultSet,org.postgresql.core.v3.SimpleQuery,org.postgresql.jdbc.ResultWrapper,org.postgresql.jdbc.PgStatement" />
-        <watch expression="this" />
-        <watch expression="((byte[][])((java.util.ArrayList)((PgResultSet)rs).rows).get(0))[0]" custom="org.postgresql.jdbc.PgResultSet,byte[][],java.util.ArrayList" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Vehicles$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1579723310166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -11,7 +11,7 @@ public abstract class MotorizedVehicle extends Vehicle {
     /**
      * The number of the licenceplate every motorized vehicle has.
      */
-    String licenceNumber;
+   private String licenceNumber;
 
 
     /**

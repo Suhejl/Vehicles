@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * This class is an entity which represents a truck and contains all the needed data, to define it.
  */
-public class Truck extends MotorizedVehicle implements Definable {
+public class Truck extends MotorizedVehicle{
 
     /**
      * The amount of payLoad the truck is able to carry

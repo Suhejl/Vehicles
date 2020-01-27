@@ -1,19 +1,17 @@
 package ch.vehicles.tbz.vehicles;
 
 import ch.vehicles.tbz.Definable;
-
 import java.util.Scanner;
 
 /**
  * This class is an entity which represents a car and contains all the needed data, to define it.
  */
-public class Car extends MotorizedVehicle implements Definable {
+public class Car extends MotorizedVehicle{
 
     /**
      * The amount of doors the car has
      */
     private int doors;
-
 
     /**
      * Constructor that fills the attributes.
@@ -29,7 +27,6 @@ public class Car extends MotorizedVehicle implements Definable {
      * They can manually be added later with the form.
      */
     public Car(){}
-
 
     /**
      * Method that defines all attributes of the car and shows a success message

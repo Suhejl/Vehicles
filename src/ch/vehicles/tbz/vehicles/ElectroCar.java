@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * This class is an entity which represents an electrocar and contains all the needed data, to define it.
  */
-public class ElectroCar extends Vehicle implements Definable {
+public class ElectroCar extends Vehicle{
 
     /**
      * The duration of the battery of this electrocar
