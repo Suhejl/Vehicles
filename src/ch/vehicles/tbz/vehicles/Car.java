@@ -11,7 +11,7 @@ public class Car extends MotorizedVehicle{
     /**
      * The amount of doors the car has
      */
-    private int doors;
+    protected int doors;
 
     /**
      * Constructor that fills the attributes.

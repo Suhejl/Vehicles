@@ -12,7 +12,7 @@ public class Truck extends MotorizedVehicle{
     /**
      * The amount of payLoad the truck is able to carry
      */
-    private String payLoad;
+    protected String payLoad;
 
 
     /**

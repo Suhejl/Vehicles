@@ -14,27 +14,27 @@ public abstract class Vehicle implements Definable {
     /**
      * The name of the modell of this vehicle
      */
-    private String name;
+    protected String name;
     /**
      * The brand to which this vehicle belongs
      */
-    private String brand;
+    protected String brand;
     /**
      * The color of this vehicle
      */
-    private String mainColor;
+    protected String mainColor;
     /**
      * The date when this vehicle was bought
      */
-    private String purchaseDate;
+    protected String purchaseDate;
     /**
      * The power of the engine this vehicle has
      */
-    private String enginePower;
+    protected String enginePower;
     /**
      * The date when this vehicle was inspected the last time
      */
-    private String lastInspection;
+    protected String lastInspection;
 
 
     /**

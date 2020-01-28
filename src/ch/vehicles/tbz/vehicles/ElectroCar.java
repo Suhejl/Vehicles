@@ -12,7 +12,7 @@ public class ElectroCar extends Vehicle{
     /**
      * The duration of the battery of this electrocar
      */
-    private String batteryDuration;
+    protected String batteryDuration;
 
 
     /**
