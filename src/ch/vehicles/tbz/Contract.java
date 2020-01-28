@@ -76,9 +76,17 @@ public class Contract implements Definable {
         System.out.println("Further conditions of the contract?");
         description = inputValue.nextLine();
 
-        System.out.println("How expensive is the bought vehicle?");
-        amount = Integer.parseInt(inputValue.nextLine());
-
+        while (true) {
+            try {
+                System.out.println("How expensive is the bought vehicle?");
+                amount = Integer.parseInt(inputValue.nextLine());
+                if (amount < 0 || amount > 1000000) continue;
+            } catch (NumberFormatException nuex) {
+                System.out.println("Please ");
+                continue;
+            }
+            break;
+        }
         System.out.println("On which date is this transaction made");
         date = inputValue.nextLine();
     }
