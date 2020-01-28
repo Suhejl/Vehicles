@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b53feb29-212d-4d20-b2f8-0998386f8396" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/vehicles/tbz/FileEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/vehicles/tbz/FileEditor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/vehicles/tbz/VehicleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/vehicles/tbz/VehicleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/FileEditorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/FileEditorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/IntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/VehicleServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/VehicleServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
