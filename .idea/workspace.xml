@@ -1,11 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b53feb29-212d-4d20-b2f8-0998386f8396" name="Default Changelist" comment="">
+    <list default="true" id="9791390e-9dfa-411f-8aec-d28bd354c2ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Airportscheduler/Airportscheduler.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airportscheduler/src/ch/modul226b/airport/model/Airport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airportscheduler/src/ch/modul226b/airport/model/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airportscheduler/src/ch/modul226b/airport/model/Gate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airportscheduler/src/ch/modul226b/airport/model/InternationalGate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airportscheduler/src/ch/modul226b/airport/model/InvalidFlightNumberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airportscheduler/src/ch/modul226b/airport/model/InvalidGateNumberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airportscheduler/src/ch/modul226b/airport/model/InvalidNumberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airportscheduler/src/ch/modul226b/airport/model/NationalGate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airportscheduler/src/ch/modul226b/airport/model/NoGateAvailableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airportscheduler/src/ch/modul226b/airport/model/Plane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airportscheduler/src/ch/modul226b/airport/model/PlaneType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airportscheduler/src/ch/modul226b/airport/model/Size.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airportscheduler/src/ch/modul226b/airport/util/ConsoleReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airportscheduler/src/ch/modul226b/airport/view/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dominopuzzle/Dominosteine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FridayChallenge20190125/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FridayChallenge20190125/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModulTBZ/src/ch/tbz/modul411/exam/exercise6/StackReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModulTBZ/src/ch/tbz/modul411/exam/exercise7/ArrayManipulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModulTBZ/src/ch/tbz/modul411/fibonacci/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetwork/SocialNetwork.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestProject/TestProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vehicles.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Airportscheduler/src/Airport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Airportscheduler/src/Flight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Airportscheduler/src/Gate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Airportscheduler/src/Plane.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Airportscheduler/src/Size.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Airportscheduler/src/Type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FridayChallenge20190125/FridayChallenge20190125.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../FridayChallenge20190125/FridayChallenge20190125.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gradle_Demo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Gradle_Demo/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gradle_Demo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Gradle_Demo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gradle_Demo/src/main/java/ch/nyp/Gradle_Demo/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gradle_Demo/src/main/java/ch/nyp/Gradle_Demo/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gradle_Demo/src/main/java/ch/nyp/Gradle_Demo/GradleDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gradle_Demo/src/main/java/ch/nyp/Gradle_Demo/GradleDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gradle_Demo/src/main/java/ch/nyp/Gradle_Demo/Rest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gradle_Demo/src/main/java/ch/nyp/Gradle_Demo/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gradle_Demo/src/main/java/ch/nyp/Gradle_Demo/ServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gradle_Demo/src/test/java/ch/nyp/Gradle_Demo/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gradle_Demo/src/test/java/ch/nyp/Gradle_Demo/ControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Inheritance/Inheritance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Inheritance/Inheritance.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ModulTBZ/ModulTBZ.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ModulTBZ/out/production/ModulTBZ/META-INF/ModulTBZ.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../ModulTBZ/out/production/ModulTBZ/META-INF/ModulTBZ.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ModulTBZ/out/production/ModulTBZ/ch/tbz/modul226/modul226a/filmstars/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ModulTBZ/out/production/ModulTBZ/ch/tbz/modul226/modul226a/filmstars/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ModulTBZ/src/ch/tbz/modul226/modul226a/filmstars/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ModulTBZ/src/ch/tbz/modul226/modul226a/filmstars/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ModulTBZ/src/ch/tbz/modul411/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ModulTBZ/src/ch/tbz/modul411/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ModulTBZ/src/ch/tbz/modul411/BubbleSortWithStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ModulTBZ/src/ch/tbz/modul411/BubbleSortWithStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ModulTBZ/src/ch/tbz/modul411/ReverseLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ModulTBZ/src/ch/tbz/modul411/ReverseLetters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ModulTBZ/src/ch/tbz/modul411/ShiftingElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ModulTBZ/src/ch/tbz/modul411/ShiftingElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ModulTBZ/src/ch/tbz/modul411/list/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ModulTBZ/src/ch/tbz/modul411/list/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ModulTBZ/src/ch/tbz/modul411/list/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ModulTBZ/src/ch/tbz/modul411/list/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ModulTBZ/src/ch/tbz/modul411/primefactor/PrimeFactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ModulTBZ/src/ch/tbz/modul411/primefactor/PrimeFactor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RepetitionAnother/src/ch/noser/blj/abstracts/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RepetitionAnother/src/ch/noser/blj/abstracts/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RepetitionAnother/src/ch/noser/blj/abstracts/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RepetitionAnother/src/ch/noser/blj/abstracts/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RepetitionAnother/src/ch/noser/blj/abstracts/Fastable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RepetitionAnother/src/ch/noser/blj/abstracts/Fastable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocialNetwork/src/EventPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SocialNetwork/src/EventPost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/FileEditorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/FileEditorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/IntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/VehicleServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/VehicleServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Vehicles/ch/vehicles/tbz/vehicles/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vehicles/ch/vehicles/tbz/vehicles/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Vehicles/ch/vehicles/tbz/vehicles/ElectroCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vehicles/ch/vehicles/tbz/vehicles/ElectroCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Vehicles/ch/vehicles/tbz/vehicles/ExtraTuning.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Vehicles/ch/vehicles/tbz/vehicles/MotorizedVehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vehicles/ch/vehicles/tbz/vehicles/MotorizedVehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Vehicles/ch/vehicles/tbz/vehicles/Truck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vehicles/ch/vehicles/tbz/vehicles/Truck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/ElectroCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/ElectroCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/MotorizedVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/MotorizedVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zeiterfassung_Project" beforeDir="false" afterPath="$PROJECT_DIR$/../Zeiterfassung_Project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zeiterfassung_Project_Not" beforeDir="false" afterPath="$PROJECT_DIR$/../Zeiterfassung_Project_Not" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,18 +156,6 @@
       <recent name="C:\Work\Source\projectsintelliJ\Vehicles\src\ch\vehicles\tbz\model" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch.vehicles.tbz.Main" />
@@ -125,10 +183,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -137,6 +191,18 @@
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -273,5 +339,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580196677586" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Vehicles$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1579723310166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ch.vehicles.tbz.*</FILTER>
+    </SUITE>
   </component>
 </project>
