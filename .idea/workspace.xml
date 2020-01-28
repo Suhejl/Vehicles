@@ -259,26 +259,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580149879811" />
-    <state x="949" y="417" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1580196468409">
+    <state x="803" y="337" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1580196791294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="949" y="417" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1580196468409" />
-    <state width="1877" height="357" key="GridCell.Tab.0.bottom" timestamp="1580163410045">
+    <state x="803" y="337" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1580196791294" />
+    <state x="839" y="404" key="FileChooserDialogImpl" timestamp="1580196747796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="357" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580163410045" />
-    <state width="1877" height="357" key="GridCell.Tab.0.center" timestamp="1580163410045">
+    <state x="839" y="404" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580196747796" />
+    <state width="1877" height="357" key="GridCell.Tab.0.bottom" timestamp="1580196791429">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="357" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580163410045" />
-    <state width="1877" height="357" key="GridCell.Tab.0.left" timestamp="1580163410044">
+    <state width="1877" height="357" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580196791429" />
+    <state width="1877" height="357" key="GridCell.Tab.0.center" timestamp="1580196791429">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="357" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580163410044" />
-    <state width="1877" height="357" key="GridCell.Tab.0.right" timestamp="1580163410045">
+    <state width="1877" height="357" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580196791429" />
+    <state width="1877" height="357" key="GridCell.Tab.0.left" timestamp="1580196791429">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="357" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580163410045" />
+    <state width="1877" height="357" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580196791429" />
+    <state width="1877" height="357" key="GridCell.Tab.0.right" timestamp="1580196791429">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="357" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580196791429" />
     <state width="1877" height="315" key="GridCell.Tab.1.bottom" timestamp="1580155891022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -331,10 +335,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="766" y="416" key="git4idea.ui.GitStashDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580150171145" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580196425794">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580196677586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580196425794" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580196677586" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Vehicles$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1579723310166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
