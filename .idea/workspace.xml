@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9791390e-9dfa-411f-8aec-d28bd354c2ff" name="Default Changelist" comment="">
+    <list default="true" id="9791390e-9dfa-411f-8aec-d28bd354c2ff" name="Default Changelist" comment="Merge branch 'develop' of https://github.com/Suhejl/Vehicles into develop&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <change afterPath="$PROJECT_DIR$/../Airportscheduler/Airportscheduler.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Airportscheduler/src/ch/modul226b/airport/model/Airport.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Airportscheduler/src/ch/modul226b/airport/model/Flight.java" afterDir="false" />
@@ -25,14 +25,6 @@
       <change afterPath="$PROJECT_DIR$/../ModulTBZ/src/ch/tbz/modul411/fibonacci/Fibonacci.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SocialNetwork/SocialNetwork.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TestProject/TestProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vehicles.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Airportscheduler/src/Airport.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Airportscheduler/src/Flight.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Airportscheduler/src/Gate.java" beforeDir="false" />
@@ -63,17 +55,78 @@
       <change beforePath="$PROJECT_DIR$/../RepetitionAnother/src/ch/noser/blj/abstracts/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RepetitionAnother/src/ch/noser/blj/abstracts/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RepetitionAnother/src/ch/noser/blj/abstracts/Fastable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RepetitionAnother/src/ch/noser/blj/abstracts/Fastable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SocialNetwork/src/EventPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SocialNetwork/src/EventPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vehicles/ch/vehicles/tbz/vehicles/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vehicles/ch/vehicles/tbz/vehicles/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vehicles/ch/vehicles/tbz/vehicles/ElectroCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vehicles/ch/vehicles/tbz/vehicles/ElectroCar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vehicles/ch/vehicles/tbz/vehicles/ExtraTuning.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vehicles/ch/vehicles/tbz/vehicles/MotorizedVehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vehicles/ch/vehicles/tbz/vehicles/MotorizedVehicle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vehicles/ch/vehicles/tbz/vehicles/Truck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vehicles/ch/vehicles/tbz/vehicles/Truck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/ElectroCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/ElectroCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/MotorizedVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/MotorizedVehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/Truck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/vehicles/tbz/vehicles/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileEditorTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/FileEditorTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntegrationTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/IntegrationTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleServiceTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/VehicleServiceTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allclasses.html" beforeDir="false" afterPath="$PROJECT_DIR$/allclasses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/Contract.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/Contract.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/Definable.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/Definable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/FileEditor.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/FileEditor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/NoTransactionException.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/NoTransactionException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/NoVehiclesOnStockException.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/NoVehiclesOnStockException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/VehicleController.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/VehicleController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/VehicleService.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/VehicleService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/class-use/Contract.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/class-use/Contract.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/class-use/Definable.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/class-use/Definable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/class-use/FileEditor.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/class-use/FileEditor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/class-use/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/class-use/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/class-use/NoTransactionException.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/class-use/NoTransactionException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/class-use/NoVehiclesOnStockException.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/class-use/NoVehiclesOnStockException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/class-use/VehicleController.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/class-use/VehicleController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/class-use/VehicleService.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/class-use/VehicleService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/Car.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/Car.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/ElectroCar.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/ElectroCar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/MotorizedVehicle.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/MotorizedVehicle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/Truck.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/Truck.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/Vehicle.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/Vehicle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/class-use/Car.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/class-use/Car.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/class-use/ElectroCar.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/class-use/ElectroCar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/class-use/MotorizedVehicle.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/class-use/MotorizedVehicle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/class-use/Truck.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/class-use/Truck.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/class-use/Vehicle.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/class-use/Vehicle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch/vehicles/tbz/vehicles/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class-use/FileEditorTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/class-use/FileEditorTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class-use/IntegrationTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/class-use/IntegrationTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class-use/VehicleServiceTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/class-use/VehicleServiceTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-16.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-16.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-17.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-17.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/member-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/package-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/serialized-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/vehicles/tbz/VehicleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/vehicles/tbz/VehicleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/type-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/type-search-index.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Zeiterfassung_Project" beforeDir="false" afterPath="$PROJECT_DIR$/../Zeiterfassung_Project" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Zeiterfassung_Project_Not" beforeDir="false" afterPath="$PROJECT_DIR$/../Zeiterfassung_Project_Not" afterDir="false" />
     </list>
@@ -145,15 +198,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Work\Source\projectsintelliJ\Vehicles\diagrams\final" />
+      <recent name="C:\Work\Source\projectsintelliJ\Vehicles\src\ch\vehicles\tbz\model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ch.vehicles.tbz.util" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Work\Source\projectsintelliJ\Vehicles\diagrams\final" />
-      <recent name="C:\Work\Source\projectsintelliJ\Vehicles\src\ch\vehicles\tbz\model" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -259,30 +312,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580149879811" />
-    <state x="803" y="337" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1580196791294">
+    <state x="803" y="337" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1580200917141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="803" y="337" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1580196791294" />
+    <state x="803" y="337" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1580200917141" />
     <state x="839" y="404" key="FileChooserDialogImpl" timestamp="1580196747796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="839" y="404" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580196747796" />
-    <state width="1877" height="357" key="GridCell.Tab.0.bottom" timestamp="1580196791429">
+    <state width="938" height="357" key="GridCell.Tab.0.bottom" timestamp="1580200917334">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="357" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580196791429" />
-    <state width="1877" height="357" key="GridCell.Tab.0.center" timestamp="1580196791429">
+    <state width="938" height="357" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580200917334" />
+    <state width="938" height="357" key="GridCell.Tab.0.center" timestamp="1580200917333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="357" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580196791429" />
-    <state width="1877" height="357" key="GridCell.Tab.0.left" timestamp="1580196791429">
+    <state width="938" height="357" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580200917333" />
+    <state width="938" height="357" key="GridCell.Tab.0.left" timestamp="1580200917333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="357" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580196791429" />
-    <state width="1877" height="357" key="GridCell.Tab.0.right" timestamp="1580196791429">
+    <state width="938" height="357" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580200917333" />
+    <state width="938" height="357" key="GridCell.Tab.0.right" timestamp="1580200917333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="357" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580196791429" />
+    <state width="938" height="357" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580200917333" />
     <state width="1877" height="315" key="GridCell.Tab.1.bottom" timestamp="1580155891022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -335,10 +388,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="766" y="416" key="git4idea.ui.GitStashDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580150171145" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580196677586">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580200914990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580196677586" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580200914990" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Vehicles$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1579723310166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

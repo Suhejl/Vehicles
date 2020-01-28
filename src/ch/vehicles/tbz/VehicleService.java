@@ -109,7 +109,7 @@ public class VehicleService {
    * Defines the variable of a new contract and adds it to the contractList.
    *
    * @param vehicle that gets saved as attribute in the contract that was made
-   * @param isSold
+   * @param isSold if the vehicle is being sold to call the right method
    */
   public void makeContract(Vehicle vehicle, boolean isSold) {
     Contract contract = new Contract();
