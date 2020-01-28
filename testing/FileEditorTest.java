@@ -11,10 +11,17 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import java.io.File;
 import java.util.ArrayList;
 
+/**
+ * This testing class tests the FileEditor class and assures that the input and output stream into the file works
+ */
 public class FileEditorTest {
 
     FileEditor fileEditor = new FileEditor();
 
+    /**
+     * This class reads the data from the DummyData file, that was inserted in the lower test
+     * If the data matches with the lower data it is accepted
+     */
     @Test
     public void useFileData_givesArrayList_returnsFilledArrayList(){
         ArrayList<Vehicle> vehicleList = new ArrayList<>();
@@ -29,6 +36,10 @@ public class FileEditorTest {
         assertEquals("cabrio Truck", vehicleList.get(5).getName());
     }
 
+    /**
+     * This test deletes the old file and puts some new data in it
+     * It is accepted if deleteOldFile, createNewFile and writeInFile returns true
+     */
     @Test
     public void convertArrayToFile_givesArray_createsNewFileWithArrayData(){
         ArrayList<Vehicle> vehicleList = new ArrayList<>();
