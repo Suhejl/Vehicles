@@ -8,13 +8,22 @@ import ch.vehicles.tbz.vehicles.Vehicle;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * This class contains the whole logic pf the program on creating, deleting and overwriting all things.
+ */
 public class VehicleService {
 
+  /**
+   * amount is a varibale containing the cash amount of the salesman
+   */
+  int amount;
+  /**
+   * Source is a String that contains the path to the file representing the database
+   */
+  String source;
   FileEditor fileEditor = new FileEditor();
   ArrayList<Vehicle> vehicleList = new ArrayList<>();
   ArrayList<Contract> contractList = new ArrayList<>();
-  int amount;
-  String source;
   Scanner inputValue = new Scanner(System.in);
 
   /**

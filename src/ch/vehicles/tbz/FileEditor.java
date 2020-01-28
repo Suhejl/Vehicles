@@ -55,6 +55,12 @@ public class FileEditor {
         return false;
     }
 
+    /**
+     * writes all Vehicles from allVehicles into oldData file
+     * @param allVehicles arraylist that gets written into the file
+     * @param oldData is the file that gest overwritten
+     * @return true if the process was successful
+     */
     public boolean writeInFile(ArrayList<Vehicle> allVehicles, File oldData){
         try {
             BufferedWriter copyToWriter = new BufferedWriter(new FileWriter(oldData));
