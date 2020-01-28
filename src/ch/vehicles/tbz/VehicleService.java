@@ -100,6 +100,7 @@ public class VehicleService {
       makeContract(soldVehicle, true);
       vehicleList.remove(soldVehicle);
       System.out.println("Thank you for your purchase");
+      fileEditor.convertArrayToFile(vehicleList, source);
     } catch (NumberFormatException | IndexOutOfBoundsException e) {
       System.out.println("Please enter a valid value");
     }
